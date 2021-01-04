@@ -9,7 +9,9 @@ for(var i = 0; i<chartData.length; i++){
 }
 
 new Chart(document.getElementById("myPieChart"),{
-    type: 'doughnut',
+
+    // chart details
+    type: 'pie',
 
     data: {
         datasets: [{
