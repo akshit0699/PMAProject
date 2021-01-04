@@ -37,7 +37,7 @@ public class HomeController {
         model.addAttribute("projects", projects);
 
         List<ChartData> projectData = proRepo.getProjectStatus();
-
+        // Adding a few lines here
         // The projectData is a List, hence can't be used as such in JS
         // SO we use ObjectMapper to turn it into a JSON string,
         // that looks like:
